@@ -4,7 +4,6 @@
 
 int main(void) {
   double cel,fah;
-  char celsius [256];
   char* name = readline("Enter temperature in celsius: ");
   cel = atof (name);
   fah = cel * 9 / 5 + 32;
